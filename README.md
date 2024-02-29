@@ -11,17 +11,24 @@ Mactop, a Markov clustering-based tool to accurately identify TADs and provide b
 ## Getting started
 See [Documentation and Tutorials](https://stagate.readthedocs.io/en/latest/index.html).
 
-## Software dependencies
-scanpy
 
-tensorflow==1.15.0
+## Getting start
 
-## Installation
-cd STAGATE-main
+### Installation
+It's recommended to create a conda environment:
 
-python setup.py build
+```shell
+conda create -n mactop python=3.6
+conda activate mactop
+```
 
-python setup.py install
+### dependencies
+cooler >= 0.8.11
+numpy  >= 1.17.3 
+pandas >= 0.24.1 
+scipy  >= 1.1.0 
+iced   >= 0.5.10
+networkx >= 2.5.1
+markov_clustering >= 0.0.6
+pickle >= 0.7.5
 
-## Citation
-Dong, Kangning, and Shihua Zhang. “Deciphering spatial domains from spatially resolved transcriptomics with adaptive graph attention auto-encoder.” bioRxiv (2021). doi: https://doi.org/10.1101/2021.08.21.457240
