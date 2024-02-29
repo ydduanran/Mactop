@@ -54,3 +54,9 @@ python mactop_CLI.py [path/to/you/paramaters.txt]
 ### For Interactive user
 See [Mactop usage.ipynb](./Tutorial/Mactop_Tutorials.ipynb).
 
+
+### Support
+
+If you are having issues, please let us know. We have a mailing list located at:
+
+* duanran@mail.ynu.edu.cn
