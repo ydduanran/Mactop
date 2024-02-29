@@ -44,10 +44,11 @@ pip install mactop
 install from source
 
 ```shell
-git clone https://github.com/zhanglabtools/ConsTADs.git
+git clone https://github.com/ydduanran/Mactop.git
 cd mactop
 python setup.py build
 python setup.py install
 ```
-
+## Documentation and Tutorials
+See [Documentation and Tutorials](https://stagate.readthedocs.io/en/latest/index.html).
 
