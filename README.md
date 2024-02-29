@@ -22,7 +22,7 @@ conda create -n mactop python=3.6
 conda activate mactop
 ```
 
-### dependencies
+### Installation dependency
 ```shell
 cooler >= 0.8.11
 numpy  >= 1.17.3 
@@ -33,4 +33,21 @@ networkx >= 2.5.1
 markov_clustering >= 0.0.6
 pickle >= 0.7.5
 ```
+### Installation Mactop
+
+Install from PyPI:
+
+```shell
+pip install mactop
+```
+
+install from source
+
+```shell
+git clone https://github.com/zhanglabtools/ConsTADs.git
+cd mactop
+python setup.py build
+python setup.py install
+```
+
 
