@@ -6,12 +6,6 @@ Mactop is designed for identifying chromatin domains, domain communities, and ch
 ## Overview
 Mactop, a Markov clustering-based tool to accurately identify TADs and provide biologically important classifications of TADs and their boundaries. Mactop distinguishes stable and dynamic boundaries based on biological significance. More importantly, leveraging spatial interactions among TADs, Mactop uncovers TAD communities characterized by chromatin accessibility and enriched histone modifications. Mactop unveils the ‘chromunity’ within TADs in high-order interaction data, showing that interactions within TADs are diverse rather than uniform. In short, Mactop is a versatile, accurate, robust tool for deciphering chromatin domain, domain community, and chromunity for 3D genome maps.
 
-
-
-## Getting started
-See [Documentation and Tutorials](https://stagate.readthedocs.io/en/latest/index.html).
-
-
 ## Getting start
 
 ### Installation
