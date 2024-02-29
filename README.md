@@ -44,5 +44,13 @@ python setup.py build
 python setup.py install
 ```
 ## Documentation and Tutorials
+### For Command Line Interface(CLI) user
+The parameter file for mactop needs to be prepared according to the file in [the example](./Tutorial/CLI/paramaters.txt).
+```shell
+cd mactop
+python mactop_CLI.py [path/to/you/paramaters.txt]
+```
+
+### For Interactive user
 See [Mactop usage.ipynb](./Tutorial/Mactop_Tutorials.ipynb).
 
