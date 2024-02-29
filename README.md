@@ -44,5 +44,5 @@ python setup.py build
 python setup.py install
 ```
 ## Documentation and Tutorials
-See [Documentation and Tutorials]([https://stagate.readthedocs.io/en/latest/index.html](https://github.com/ydduanran/Mactop/blob/main/Tutorial/Mactop_Tutorials.ipynb)https://github.com/ydduanran/Mactop/blob/main/Tutorial/Mactop_Tutorials.ipynb).
+See [Mactop usage.ipynb](./Tutorial/Mactop_Tutorials.ipynb).
 
