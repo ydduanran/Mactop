@@ -1,0 +1,30 @@
+# Data type [dense cool mcool mutiway]
+dtype = cool
+
+# Data input path
+# For dense type, input_path should be the root directory of the dense matrix. The dense matrices are named as chr_*, where * represents the chromosome number.
+# For cool、mcool、mutiway type, input_path should be the file location.
+input_path = /you/input/path
+
+# result save path
+output_path = /your/output/path
+
+# consistent_mat out put
+consistent = True
+
+# Chromosome number(s): Input the chromosome number(s) needed for calculation. It can be individual numbers or a range.
+chr_num = 7
+
+# Data resolution (bin/bp)
+resolution = 50000
+
+
+# domain Calling
+normalization = True
+inflation = 1.7
+window_size = 50
+variance = 0.2
+stable_cut_of = 20
+community_inflation = 10
+chromunity_inflation = 1.7
+
