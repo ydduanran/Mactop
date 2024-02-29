@@ -44,6 +44,7 @@ python setup.py build
 python setup.py install
 ```
 ## Documentation and Tutorials
+You can download the mcool and mutiway data used in our tutorial at [NCBI(GSE149117)](https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GSE149117).
 ### For Command Line Interface(CLI) user
 The parameter file for mactop needs to be prepared according to the file in [the example](./Tutorial/CLI/paramaters.txt).
 ```shell
