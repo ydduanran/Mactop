@@ -52,7 +52,7 @@ python mactop_CLI.py [path/to/you/paramaters.txt]
 ```
 
 ### For Interactive user
-See [Mactop usage.ipynb](./Tutorial/Mactop_Tutorials.ipynb).
+See [Mactop_Tutorials.ipynb](./Tutorial/Mactop_Tutorials.ipynb).
 
 
 ### Support
