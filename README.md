@@ -1,16 +1,12 @@
-# STAGATE
+# Mactop
 
 ![](https://github.com/ydduanran/Mactop/blob/main/Mactop_Overview.jpg)
 
-## News
-2022.03.05 STAGATE based on pyG (PyTorch Geometric) framework is availble at [STAGATE_pyG](https://github.com/QIFEIDKN/STAGATE_pyG).
-
-Benefit from the optimization of the pyG package for training graph neural networks, it is more than 10x faster than STAGATE based on the tensorflow1 framework, and can use a batch training strategy to deal with large-scale data.
-
 ## Overview
-STAGATE is designed for spatial clustering and denoising expressions of spatial resolved transcriptomics (ST) data.
+Mactop is designed for identifying chromatin domains, domain communities, and chromunities in Hi-C data and higher-order interaction data.
 
-STAGATE learns low-dimensional latent embeddings with both spatial information and gene expressions via a graph attention auto-encoder. The method adopts an attention mechanism in the middle layer of the encoder and decoder, which adaptively learns the edge weights of spatial neighbor networks, and further uses them to update the spot representation by collectively aggregating information from its neighbors. The latent embeddings and the reconstructed expression profiles can be used to downstream tasks such as spatial domain identification, visualization, spatial trajectory inference, data denoising and 3D expression domain extraction.
+Mactop, a Markov clustering-based tool to accurately identify TADs and provide biologically important classifications of TADs and their boundaries. Mactop distinguishes stable and dynamic boundaries based on biological significance. More importantly, leveraging spatial interactions among TADs, Mactop uncovers TAD communities characterized by chromatin accessibility and enriched histone modifications. Mactop unveils the ‘chromunity’ within TADs in high-order interaction data, showing that interactions within TADs are diverse rather than uniform. In short, Mactop is a versatile, accurate, robust tool for deciphering chromatin domain, domain community, and chromunity for 3D genome maps.
+
 
 ## Getting started
 See [Documentation and Tutorials](https://stagate.readthedocs.io/en/latest/index.html).
