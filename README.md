@@ -32,7 +32,7 @@ pickle >= 0.7.5
 Install from PyPI:
 
 ```shell
-pip install mactop
+pip install mactop3D
 ```
 
 install from source
